@@ -21,7 +21,7 @@ void main(){
 
   String firstname = "Mr."; //String variable
   String lastName = "Saeid"; //String variable
-  String fullName = firstname  + " " + lastName;
+  String fullName = firstname  + " " + lastName; //String variable
   print(fullName);
 
   bool dinnerDone = true; //Boolean variable
