@@ -22,7 +22,9 @@ void main(){
   String firstname = "Mr."; //String variable
   String lastName = "Saeid"; //String variable
   String fullName = firstname  + " " + lastName; //String variable
+  String details = 'Full Name:' + " " + fullName;
   print(fullName);
+  print(details);
 
   bool dinnerDone = true; //Boolean variable
   print(dinnerDone);
