@@ -2,8 +2,8 @@
 //this program for exam result using if, else if, & else statement
 
 void main(){
-  int marks = 110;
-/*
+ int marks = 90;
+
   if (marks>=80 && marks<=100){
     print("The result is A+");
   } else if (marks>=70 && marks<80){
@@ -19,9 +19,9 @@ void main(){
   } else{
     print("The result is F");
   }
-*/
 
-  if (marks<=80 && marks<=100){
+
+  /*if (marks<=80 && marks<=100){
     print("The result is A+");
   } else if (marks<80 && marks>=70){
     print("The result is A");
@@ -39,4 +39,6 @@ void main(){
   else{
     print("The result is F");
   }
+*/
+
 }
