@@ -13,6 +13,7 @@
 import 'dart:io';
 
 void main() {
+  // Student's Subjects Grades List
   List<int> grades = [85, 92, 78, 65, 88, 72];
 
   int total = 0;
@@ -22,8 +23,10 @@ void main() {
 
   double average = total / grades.length;
 
-  print("Student's average grade: $average");
+  // Student's Average Grade
+  print("Student's average Grade: $average");
 
+  // Student's Rounded Grade
   int roundAverage = average.round();
   print("Rounded average: $roundAverage");
 
