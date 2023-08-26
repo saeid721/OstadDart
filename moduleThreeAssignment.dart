@@ -1,36 +1,3 @@
-<<<<<<< HEAD
-import 'dart:io';
-
-class Car {
-  String brand;
-  String model;
-  int years ;
-
-  Car(this.brand,this.years,this.model);
-
-  int getAgeInMonths(){
-    return 12*age;
-  }
-}
-
-void main (){
-  String brand ='BMW' 'Toyota' 'Mercedes-Benz' 'Ford' 'Audi' 'Ferrari' 'Land Rover' 'Nissan'; //Assigning brand
-
-  List years = [2000, 2010, 2009, 2017, 1995, 2003, 2006, 2004];//assigning years
-
-  String model ='Shyamoli, Dhaka'; //assigning model
-
-  String  milesDriven ='Shyamoli, Dhaka'; //assigning miles driven
-
-  Car car = Car(brand, years, model);
-
-  car.sayHello();
-  int ageInMonths = car.getAgeInMonths();
-
-  print('Car 1: $ageInMonths');
-  print('Car 2: $ageInMonths');
-  print('Car 3: $ageInMonths');
-=======
 void main (){
   // Using static to track the Number of cars
   Car.numberOfCars = 0;
@@ -83,5 +50,4 @@ class Car{
   }
 
   static int numberOfCars = 0;
->>>>>>> 676cfd78cfc9faab23d5d600ec74506b8c94f9da
 }
